@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+	<BaseOutputPath>$(SolutionDir)\bin\</BaseOutputPath>
+	<OutputPath>$(SolutionDir)\bin\</OutputPath>
+	<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+	<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+	<UseCommonOutputDirectory>true</UseCommonOutputDirectory>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Task\צילום מסך 2024-02-13 220058.png" />
+    <None Remove="צילום מסך 2024-02-13 220058.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BL\BL.csproj" />
+    <ProjectReference Include="..\DalTest\DalTest.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Task\צילום מסך 2024-02-13 220058.png" />
+    <Resource Include="צילום מסך 2024-02-13 220058.png" />
+  </ItemGroup>
+
+</Project>

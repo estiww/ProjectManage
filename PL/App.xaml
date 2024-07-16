@@ -1,0 +1,13 @@
+﻿<Application x:Class="PL.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:PL"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <local:EngineerExperienceCollection x:Key="EngineerExperienceCollectionKey" />
+        <local:StatusCollection x:Key="StatusCollectionKey" />
+        <local:ConvertIdToContent x:Key="ConverIdToContentKey"/>
+        <local:ConvertIdToEnabled x:Key="ConvertIdToEnabledKey"/>
+
+    </Application.Resources>
+</Application>
